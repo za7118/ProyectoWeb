@@ -6,8 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <title>Bienvenido</title>
     <style type="text/css">
-     select {
+      body{
+        display: flex;
+         min-height: 100vh;
+        flex-wrap: wrap;
+      }
+      #f{
+        align-self: flex-end;
+       
+      }
+       select {
     padding:3px;
     margin: 0;
     -webkit-border-radius:4px;
@@ -58,19 +68,19 @@ label:before {
     display:block;
 }
     </style>
-    <title>Bienvenido</title>
   </head>
-  <body style="background-color:#E0E0E0; margin: 0;margin-bottom: 40px;">
 
- <nav class="navbar navbar-expand-lg " style="background-color:#5D99C6;">
+  <body style="background-image: url(imagenes/fp.png);background-repeat:no-repeat;background-size: 100% 100%;">
+
+ <nav class="navbar navbar-expand-lg " style="background-color:#5D99C6;width: 100%;height: 10%;">
    <a class="navbar-brand" href="#">
     <img src="imagenes/logohidalgo.png" width="60" height="40" alt="">
   </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation" style="background-image:url(imagenes/boton.png);background-repeat:no-repeat;background-size:50px 44px; size:50px 44px;background-position: center;">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation" style="background-image:url(imagenes/boton.png);background-repeat:no-repeat;background-size:100% 100%; size:50px 44px;background-position: center;">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarColor01">
+    <div class="collapse navbar-collapse" id="navbarColor01" >
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active" style="">
           <a class="nav-link" href="#"style="color: #FFFFFF;padding-left: 20px;padding-right: 5px;">Inicio<span></span></a>
@@ -86,26 +96,26 @@ label:before {
   </nav>
 
 
-  <div class="container-fluid" style=" border: red 5px solid;height: 100%;">
+ <div class="container-fluid" style="height: 100%;">
     <div class="row" >
-      <div class="col-sm-3 col-lg-3" style="border: red 5px solid;">
+      <div class="col-sm-3 col-lg-3" style="">
         <br></br>
         <div class="card" style="background-color: #90CAF9;">
   <img src="imagenes/logohidalgo.png"  width="70%" height="200" position="center" style="display:block; margin-left: auto;
   margin-right: auto;">
   <div class="card-body">
-    <h5 class="card-title">DATOS DEL ESTUDIANTE</h5>
-    <p class="card-text">NOMBRE:</p>
-    <p class="card-text">APELLIDOS:</p>
-    <p class="card-text">GRADO:</p>
-    <p class="card-text">GRUPO:</p>
-    <p class="card-text">MAESTRA:</p>
+     <h5 class="card-title" style="font-family: arial black;font-size: 15px;">DATOS DEL ESTUDIANTE</h5>
+    <p class="card-text" style="font-family: bz-modeler-font;">NOMBRE:</p>
+    <p class="card-text" style="font-family: bz-modeler-font;">APELLIDOS:</p>
+    <p class="card-text" style="font-family: bz-modeler-font;">GRADO:</p>
+    <p class="card-text" style="font-family: bz-modeler-font;">GRUPO:</p>
+    <p class="card-text" style="font-family: bz-modeler-font;">MAESTRA:</p>
   </div>
 </div>
       <br>
 </div>
-      <div class="col-sm-9 col-lg-9" style="border: red 5px solid;text-align: center;">
-        <img src="imagenes/bien.png" style="position:relative;left: 0px;right: 0px;top:20px;margin: auto;display: table-cell; vertical-align:middle; text-align:center;width:80%; height:80px;">
+      <div class="col-sm-9 col-lg-9" style="text-align: center;">
+<H1 style="position: relative;top: 10px;font-size: 55px;font-weight: bold;font-family: algerian;color:blue;">Calificaciones</h1>    
 <p style="position: relative;top: 15%;font-size: 20px;font-weight: bold;">Selecciona un periodo</p> 
 </br>
 <label style="position:relative;left: 0px;right: 0px;top:50px;">
@@ -118,7 +128,7 @@ label:before {
 </label>
 </br>
 <br>
-<input class="btn btn-primary" type='submit' value='Descargar' style="position:relative;left: 0px;right: 0px;top:70px;"/>
+<input class="btn btn-primary" type='submit' value='Descargar' style="position:relative;left: 0px;right: 0px;top:40px;"/>
 <br>
 <br>
 <br>
@@ -131,14 +141,20 @@ label:before {
     </div>
   </div>
 
-
-
-
-
-  <div class="container-fluid" style="position: absolute;bottom: 0;width: 100%;height: 40px;background-color: red;">
+  <div class="container-fluid" id="f" style="with:100%;height:15%;background-color:#505055;color:white;font-family:Calibri Light;font-weight: bold;">
     <div class="row">
-      <div class="col-sm-12 col-lg-12">
-<p>Hola</p>
+  <div class="col-sm-4 col-lg-4"  style="text-align: center;font-family:Bahnschrift;">
+<br>MA.CONCEPCION ALVAREZ PEREZ</br>
+<br>DIRECTORA</br>
+</div>
+<div class="col-sm-4 col-lg-4" style="text-align: center;font-family:Bahnschrift;">
+<br>CALLE 15 S/N</br>
+<br>FRAY BERNARDINO DE SAHAGÚN</br>
+</div>
+<div class="col-sm-4 col-lg-4" style="text-align: center;font-family:Bahnschrift;">
+<br>TELÉFONO 9130152</br>
+<br>CÓDIGO POSTAL 43995</br>
+
 </div>
     </div>
   </div>
