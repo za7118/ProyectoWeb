@@ -1,0 +1,9 @@
+La carpeta version final contiene la versón de entrega de la pagina, cada archivo representa 
+un modulo del sistema.
+Los modulos principales son:
+-login.
+-Index:a tráves de esta pagina se pueden revisar todos los modulos de los usuarios"padres de familia".
+-IndexMaestras:a tráves de esta pagina se pueden revisar todos los modulos de los administradores 
+del sitio "Maestras".
+NOTA: PARA EJECUTAR D EFORMA CORRECTA EL SITIO DEBE TENER CONEXIÓN A INTERNET YA QUE ALGUNOS SCRIPTS DE
+BOOTSTRAP REQUIEREN BUSCAR EL REPOSITORIO EN LA WEB.
