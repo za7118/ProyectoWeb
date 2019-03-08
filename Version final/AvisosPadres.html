@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en" style=" min-height: 100%;position: relative;">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <title>Bienvenido</title>
+    <style type="text/css">
+      body{
+        display: flex;
+         min-height: 100vh;
+        flex-wrap: wrap;
+      }
+      #f{
+        align-self: flex-end;
+       
+      }
+       select {
+    padding:3px;
+    margin: 0;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    background: #f8f8f8;
+    color:#888;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+    width: 200px;
+}
+
+/* Targetting Webkit browsers only. FF will show the dropdown arrow with so much padding. */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    select {padding-right:18px}
+}
+
+label {position:relative}
+label:after {
+    content:'<>';
+    font:11px "Consolas", monospace;
+    color:#aaa;
+    -webkit-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -ms-transform:rotate(90deg);
+    transform:rotate(90deg);
+    right:8px; top:2px;
+    padding:0 0 2px;
+    border-bottom:1px solid #ddd;
+    position:absolute;
+    pointer-events:none;
+}
+label:before {
+    content:'';
+    right:6px; top:0px;
+    width:20px; height:20px;
+    background:#f8f8f8;
+    position:absolute;
+    pointer-events:none;
+    display:block;
+}
+    </style>
+  </head>
+
+  <body style="background-image: url(imagenes/fp.png);background-repeat:no-repeat;background-size: 100% 100%;">
+
+ <nav class="navbar navbar-expand-lg " style="background-color:#5D99C6;width: 100%;height: 10%;">
+   <a class="navbar-brand" href="#">
+    <img src="imagenes/logohidalgo.png" width="60" height="40" alt="">
+  </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation" style="background-image:url(imagenes/boton.png);background-repeat:no-repeat;background-size:100% 100%; size:50px 44px;background-position: center;">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor01" >
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active" style="">
+          <a class="nav-link" href="Index.html"style="color: #FFFFFF;padding-left: 20px;padding-right: 5px;">Inicio<span></span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="CalificacionesPadres.html" style="color: #FFFFFF;padding-left: 20px;padding-right: 5px;">Calificaciones</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="AvisosPadres.html" style="color: #FFFFFF;padding-left: 20px;padding-right: 30px;">Avisos</a>
+        </li>
+        <li class="nav-item dropdown" style="background-color: #154360;">
+        <a class="nav-link dropdown-toggle" href="#"  role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #FFFFFF;padding-left: 20px;padding-right: 5px;">
+         MI CUENTA
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="cuenta.html">Información cuenta</a>
+          <a class="dropdown-item" href="cuenta.html">Cerrar sesión</a>
+        </div>
+      </li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+ <div class="container-fluid" style="height: 100%;">
+    <div class="row" >
+      <div class="col-sm-3 col-lg-3" style="">
+        <br></br>
+        <div class="card" style="background-color: #90CAF9;">
+  <img src="imagenes/persona.png"  width="70%" height="200" position="center" style="display:block; margin-left: auto;
+  margin-right: auto;">
+  <div class="card-body">
+    <h5 class="card-title" style="font-family: arial black;font-size: 15px;">DATOS DEL ESTUDIANTE</h5>
+    <p class="card-text" style="font-family: bz-modeler-font;">NOMBRE:</p>
+    <p class="card-text" style="font-family: bz-modeler-font;">APELLIDOS:</p>
+    <p class="card-text" style="font-family: bz-modeler-font;">GRADO:</p>
+    <p class="card-text" style="font-family: bz-modeler-font;">GRUPO:</p>
+    <p class="card-text" style="font-family: bz-modeler-font;">MAESTRA:</p>
+  </div>
+</div>
+      <br>
+</div>
+      <div class="col-sm-9 col-lg-9" style="text-align: center;">
+<H1 style="position: relative;top: 10px;font-size: 55px;font-weight: bold;font-family: algerian;color:blue;">Avisos</h1>    
+
+<table class="table" style="position: relative;top:50px;border-style: solid;">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Aviso</th>
+      <th scope="col">Fecha</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+</br>
+<br>
+<br>
+<br>
+<br>
+<br>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid" id="f" style="with:100%;height:15%;background-color:#505055;color:white;font-family:Calibri Light;font-weight: bold;">
+    <div class="row">
+  <div class="col-sm-4 col-lg-4"  style="text-align: center;font-family:Bahnschrift;">
+<br>MA.CONCEPCION ALVAREZ PEREZ</br>
+<br>DIRECTORA</br>
+</div>
+<div class="col-sm-4 col-lg-4" style="text-align: center;font-family:Bahnschrift;">
+<br>CALLE 15 S/N</br>
+<br>FRAY BERNARDINO DE SAHAGÚN</br>
+</div>
+<div class="col-sm-4 col-lg-4" style="text-align: center;font-family:Bahnschrift;">
+<br>TELÉFONO 9130152</br>
+<br>CÓDIGO POSTAL 43995</br>
+
+</div>
+    </div>
+  </div>
+ 
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+  </body>
+</html>
